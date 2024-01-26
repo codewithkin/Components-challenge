@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black
+}
+
+main {
+  background-image: url("https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uY2VydHxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+   position: relative;
+  display: flex;
+  flex-direction: row;
+  height:47vh;
+}
+
+#main-content {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  font-family: Poppins, "sans-serif";
+
+}
+
+#main-content > #disco {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-content > #disco > p {
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+#main-content > #disco > div  {
+  font-size: 25px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#tracks {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.track {
+  display: grid;
+  font-size: 14px;
+}
+
+.track > p{
+  color: lightgray;
+  font-size: 12px;
+}
+
+.track > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+#heading {
+  position: absolute;
+  top: 185px;
+  left: 29px;
+  color: white;
+  font-family: Poppins, "sans-serif";
+}
+
+.track > h2 {
+  margin-top: 5px;
+}
+
+#heading > h2 {
+  margin-bottom: 10px;
+}
+
+main button {
+  border-radius: 20px;
+  top:  200px;
+  left: 29px;
+  font-weight: bold;
+  background-color: #006400;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
